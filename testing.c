@@ -37,7 +37,7 @@ void drive_right (int power)//auto right turn drive code
 	motor[backright] = power;
 }
 
-task autonomous()//needs so much fixing!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+task autonomous()//needs so much fixing!!!!!!!!!!!!!!!!!!!
 {
 	motor[left] = 100;//down mobile goal
 	motor[right] = 100;
